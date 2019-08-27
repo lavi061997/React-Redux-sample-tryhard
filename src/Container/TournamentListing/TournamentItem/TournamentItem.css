@@ -1,0 +1,37 @@
+
+.card {
+    background-color: #fff;
+    margin: 8px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    overflow: hidden;
+    margin: 12px 12px 8px 12px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 4px 6px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+
+    
+.cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12px;
+    height: 40px;
+}
+
+.cardMain {
+    display: flex;
+    justify-content: space-between;
+    min-height: 48px;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.cardFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+     height: 40px;
+    font-size: 14px;
+}
